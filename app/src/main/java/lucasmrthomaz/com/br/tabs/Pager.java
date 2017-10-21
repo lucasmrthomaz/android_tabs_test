@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 public class Pager extends FragmentStatePagerAdapter {
 
     int tabCount;
+    int tabCount2;
 
     public Pager(FragmentManager fm, int tabCount) {
         super(fm);
