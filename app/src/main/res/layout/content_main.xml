@@ -9,9 +9,8 @@
     tools:showIn="@layout/activity_main">
 
 
-    <include
-        android:id="@+id/containerIFL"
-        layout="@layout/fragment_frag1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/appviewpager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
 </LinearLayout>
